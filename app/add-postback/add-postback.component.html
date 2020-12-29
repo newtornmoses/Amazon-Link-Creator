@@ -1,0 +1,73 @@
+<div class="ui-g-6 ui-g-offset-3 form_submit">
+
+    <div class="add_form">
+        <h4 class="form_header">Add New Postaback</h4>
+    </div>
+    <select name="skills" multiple="" class="ui fluid dropdown">
+        <option value="">Skills</option>
+      <option value="angular">Angular</option>
+      <option value="css">CSS</option>
+      <option value="design">Graphic Design</option>
+      <option value="ember">Ember</option>
+      <option value="html">HTML</option>
+      <option value="ia">Information Architecture</option>
+      <option value="javascript">Javascript</option>
+      <option value="mech">Mechanical Engineering</option>
+      <option value="meteor">Meteor</option>
+      <option value="node">NodeJS</option>
+      <option value="plumbing">Plumbing</option>
+      <option value="python">Python</option>
+      <option value="rails">Rails</option>
+      <option value="react">React</option>
+      <option value="repair">Kitchen Repair</option>
+      <option value="ruby">Ruby</option>
+      <option value="ui">UI Design</option>
+      <option value="ux">User Experience</option>
+      </select>
+    <form class="ui form">
+        <sm-loader [complete]="!formSubmited" class="inverted" text="Loading..."></sm-loader>
+        <div class="field">
+
+            <sm-dropdown class="pointing link" title="Choose Affiliate">
+                <!-- <sm-dropdown class="pointing link" title="Cities" [options]="{on: 'hover'}"> -->
+                <!-- <sm-item *ngFor="let item of cities">{{item}}</sm-item> -->
+                <sm-item>Brown Marketing</sm-item>
+                <sm-item>Picodi</sm-item>
+            </sm-dropdown>
+
+        </div>
+
+        <div class="ui fluid selection dropdown">
+            <input type="hidden" name="user">
+            <i class="dropdown icon"></i>
+            <div class="default text">Select Friend</div>
+            <div class="menu">
+                <div class="item" data-value="jenny">
+                    <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg"> Jenny Hess
+                </div>
+                <div class="item" data-value="elliot">
+                    <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg"> Elliot Fu
+                </div>
+                <div class="item" data-value="stevie">
+                    <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg"> Stevie Feliciano
+                </div>
+                <div class="item" data-value="christian">
+                    <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg"> Christian
+                </div>
+                <div class="item" data-value="matt">
+                    <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg"> Matt
+                </div>
+                <div class="item" data-value="justen">
+                    <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg"> Justen Kitsune
+                </div>
+            </div>
+        </div>
+
+        <div class="field">
+            <sm-input input label="Postback" placeholder="Enter Postback URL..."></sm-input>
+        </div>
+
+        <sm-button (click)="submit()" class="positive">Add New Postaback</sm-button>
+    </form>
+
+</div>

@@ -1,0 +1,38 @@
+.ui-g-8.ui-g-offset-2.form_submit {
+    border: 1px solid #8080802e;
+    padding: 10% 0%;
+    box-shadow: 1px 2px 8px 6px #0000001a;
+    width: 98%;
+    height: 1954px !important;
+    margin: 0;
+}
+
+.ui-g-8.ui-g-offset-2.form_submit {
+    /* border: 1px solid #8080802e; */
+    padding: 10% 0%;
+    /* box-shadow: 1px 2px 8px 6px #0000001a; */
+    width: 104% !important;
+    /* height: 754px !important; */
+    margin: -7px !important;
+    overflow: hidden !important;
+}
+
+body {
+    overflow: hidden;
+}
+
+.add_form {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/wiXtq4NPpGbNf6PEHTT4hg.jpg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.ui.form {
+    position: relative;
+    max-width: 100%;
+    padding: 5% !important;
+}

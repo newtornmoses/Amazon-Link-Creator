@@ -1,0 +1,23 @@
+<div class="ui-g-6 ui-g-offset-3 form_submit">
+
+    <div class="add_form">
+        <h4 class="form_header">Add New Affiliate</h4>
+    </div>
+
+    <form class="ui form">
+        <sm-loader [complete]="!formSubmited" class="inverted" text="Loading..."></sm-loader>
+        <div class="field">
+            <sm-input label="Name" placeholder="Enter Affiliate Name..."></sm-input>
+        </div>
+
+        <div class="field">
+            <sm-input label="Affiliate ID" placeholder="Enter Affiliate ID.."></sm-input>
+        </div>
+        <div class="field">
+            <sm-input input label="API Key" placeholder="Enter API Key..."></sm-input>
+        </div>
+
+        <sm-button (click)="submit()" class="primary">Add New Affilaite</sm-button>
+    </form>
+
+</div>

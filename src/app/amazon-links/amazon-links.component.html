@@ -1,0 +1,42 @@
+<div class="ui-g-8 ui-g-offset-2 form_submit">
+
+    <div class="add_form">
+        <h4 class="form_header"></h4>
+    </div>
+    <br>
+    <form class="ui form">
+
+        <div class="field">
+
+            <select name="selectedGeo" id="" (change)="selectedField($event)">
+              
+                <option value="UAE">Amazon UAE</option>
+                <option value="Prime">Amazon Prime</option>
+                <option value="Services">Amazon Services</option>
+                <option value="KSA">Amazon KSA</option>
+            </select>
+
+        </div>
+
+        <div class="field">
+            <input label="Affiliate ID" name="link" [(ngModel)]='input_field_link' value='{{input_field_link}}&aff_id={{affiliate_id}}&aff_sub={{tag_id}}-21' disabled />
+        </div>
+        <div class="field ui-g-12">
+            <input label="Affiliate ID" name="affiliate_id" [(ngModel)]='affiliate_id' value='' placeholder="Your Affiliate  ID" (onkeyup)=get_aff_values($event)/>
+        </div>
+        <div class="field ui-g-12">
+            <input label="Tag ID" name="tag_id" [(ngModel)]='tag_id' value='' placeholder="Your Tag ID" (onkeyup)=get_tag_values($event) />
+        </div>
+
+
+
+        <div class="field">
+            <h4 for="">
+                {{completeLink}}&aff_id={{affiliate_id}}&aff_sub={{tag_id}} -21
+            </h4>
+        </div>
+
+        <sm-button (click)="copytoClipboard()" class="primary">Copy Link</sm-button>
+    </form>
+
+</div>

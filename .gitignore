@@ -9,6 +9,14 @@
 
 # dependencies
 /node_modules
+/r&B
+/index.js
+/test.js
+/amzn.csv
+/amazon.py
+/amazon.js
+/server
+
 
 # profiling files
 chrome-profiler-events.json

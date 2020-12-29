@@ -1,0 +1,20 @@
+<sm-menu class="inverted teal">
+    <!-- <sm-menu title="Arabclicks Postback" class="inverted teal"> -->
+    <a sm-item routerLink='dashboard'>Arabclicks Postback Tool</a>
+    <a sm-item routerLink='dashboard'>Dashboard</a>
+    <a sm-item routerLink='add-affiliate'>Add Affiliate</a>
+    <a sm-item routerLink='add-postback'>Add Postback</a>
+    <a sm-item class="conversions_menu" (mouseover)="get_affiliateData()">Affiliate conversions
+
+        <ul class="menu_dropdown">
+    <a sm-item  *ngFor="let affiliate of affiliates" (click)="show_affiliate_conversions(affiliate.name)">{{affiliate.name}}</a>
+
+    </ul>
+    </a>
+
+
+    <sm-menu class="menu right secondary">
+        <a sm-item href="#/elements/menu" image="http://semantic-ui.com/images/avatar/small/stevie.jpg">Admin</a>
+
+    </sm-menu>
+</sm-menu>

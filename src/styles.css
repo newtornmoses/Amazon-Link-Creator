@@ -1,1 +1,289 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/primeng/resources/primeng.min.css';
+
+/* @import '../node_modules/primeng/resources/themes/nova-light/theme.css'; */
+
+
+/* @import '../node_modules/primeng/resources/themes/nova-dark/theme.css'; */
+
+
+/* @import '../node_modules/primeng/resources/themes/luna-green/theme.css'; */
+
+@import '../node_modules/primeng/resources/themes/nova-light/theme.css';
+@import '../node_modules/primeicons/primeicons.css';
+body .ui-megamenu {
+    padding: 0;
+    background-color: #225269 !important;
+    ;
+    border: 1px solid #c8c8c8;
+    color: white;
+    height: 100pc !important;
+}
+
+body .ui-menu .ui-menuitem-link .ui-menuitem-text,
+body .ui-menubar .ui-menuitem-link .ui-menuitem-text,
+body .ui-tieredmenu .ui-menuitem-link .ui-menuitem-text,
+body .ui-contextmenu .ui-menuitem-link .ui-menuitem-text,
+body .ui-megamenu .ui-menuitem-link .ui-menuitem-text,
+body .ui-slidemenu .ui-menuitem-link .ui-menuitem-text {
+    color: #e0e0e0 !important;
+}
+
+body .ui-menu .ui-menuitem-link .ui-menuitem-icon,
+body .ui-menubar .ui-menuitem-link .ui-menuitem-icon,
+body .ui-tieredmenu .ui-menuitem-link .ui-menuitem-icon,
+body .ui-contextmenu .ui-menuitem-link .ui-menuitem-icon,
+body .ui-megamenu .ui-menuitem-link .ui-menuitem-icon,
+body .ui-slidemenu .ui-menuitem-link .ui-menuitem-icon {
+    color: #ffffff !important;
+    margin-right: 0.5em;
+}
+
+span.ui-submenu-icon.pi.pi-fw.pi-caret-down {
+    color: white;
+}
+
+canvas.chartjs-render-monitor {
+    margin-top: 20% !important;
+}
+
+.ui-g-2 {
+    width: 16.6667% !important;
+    z-index: 999;
+}
+
+.ng-trigger.ng-trigger-overlayAnimation.ng-tns-c6-0.ui-tieredmenu.ui-widget.ui-widget-content.ui-corner-all.ng-animate-disabled.ng-star-inserted {
+    background-color: #225269 !important;
+    height: 250vh;
+    width: 213px;
+    margin: 0px -17px;
+}
+
+body .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-menuitem-text {
+    color: #000000 !important;
+}
+
+body .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+a.ui-menuitem-link.ui-corner-all.ng-star-inserted:hover {
+    background: #333333;
+}
+
+body .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link {
+    background-color: rgba(255, 241, 241, 0.16);
+}
+
+body .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-menuitem-text {
+    color: #ffffff !important;
+}
+
+tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-submenu-icon {
+    color: #fffbfb;
+}
+
+li.ng-star-inserted.ui-menuitem.ui-widget.ui-corner-all.ui-menuitem-active {
+    background: #1d6f82 !important;
+}
+
+body .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link {
+    background-color: #E91E63;
+}
+
+body .ui-tieredmenu .ui-submenu-list {
+    padding: 0;
+    background-color: #2a5163;
+    border: 1px solid #c8c8c8;
+    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+body .ui-menu .ui-menuitem-link,
+body .ui-menubar .ui-menuitem-link,
+body .ui-tieredmenu .ui-menuitem-link,
+body .ui-contextmenu .ui-menuitem-link,
+body .ui-megamenu .ui-menuitem-link,
+body .ui-slidemenu .ui-menuitem-link {
+    padding: 0.714em 0.857em;
+    color: #333333;
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+.ui-g {
+    margin-top: -15px;
+}
+
+h4.ui-g-offset-5 {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.ui-g-2 {
+    width: 14.6667%;
+    z-index: 999;
+    background: #2a5163;
+    color: white !important;
+    margin-top: 16px;
+    padding-top: 34px
+}
+
+.ui.secondary.vertical.menu>.item {
+    border: none;
+    margin: 0 0 .35714286em;
+    border-radius: .28571429rem!important;
+    color: white;
+}
+
+.ui.secondary.inverted.menu,
+.ui.vertical.secondary.menu .item>.menu .item {
+    background-color: #1f678659;
+    color: #ffffff;
+    padding: 16px !important;
+    height: 30px;
+    margin: 10px !important;
+    line-height: 0;
+}
+
+.item a:hover {
+    background: #E91E63 !important;
+    color: #e8e6e2 !important;
+}
+
+h5.menu-label {
+    padding: 5px;
+}
+
+h4.arabclicks_PK_header {
+    height: 50px;
+    text-align: center;
+    background: #E91E63;
+    width: 198px;
+    line-height: 3;
+}
+
+.ui-g-6.ui-g-offset-3.form_submit {
+    padding: 4%;
+    box-shadow: 1px 1px 9px 1px #00000026;
+    margin-top: 7%;
+}
+
+h4.form_header {
+    padding: 12% 0% 10% 25%;
+    font-size: 19px;
+}
+
+.ui.form .field .ui.input input,
+.ui.form .fields .field .ui.input input {
+    width: auto;
+    padding: 12px 0px 12px 7px;
+}
+
+button.ui.positive.button,
+button.ui.primary.button {
+    width: 100%;
+}
+
+.conversions_table {
+    margin: 76px 0px 0px 0px;
+}
+
+.table_div {
+    margin-top: 4%;
+}
+
+.table_header {
+    text-align: center;
+    font-size: 25px;
+    background: whitesmoke;
+    padding: 1%;
+    margin: 0px 0px 32px 0px;
+    border-bottom: 1px solid black;
+}
+
+h5.table_header_text {
+    font-size: 19px;
+}
+
+.ui.button {
+    width: 107px;
+    margin: 0% 0% 3% 0% !important;
+}
+
+.ui.button.affiliate {
+    width: 65px !important;
+    margin: 0% 0% -19% 0% !important;
+}
+
+i.material-icons.red {
+    color: red;
+}
+
+body .ui-table .ui-table-thead>tr>th {
+    padding: 0.571em 0.857em;
+    border: 1px solid #a29898;
+    font-weight: 700;
+    color: #6f7679;
+    background-color: #f4f4f4;
+    border-top: 4px solid #60bac3;
+    font-size: 11px;
+}
+
+body .ui-table .ui-table-tbody>tr>td {
+    padding: 0.571em 0.857em;
+    font-size: 12px;
+}
+
+ul.menu_dropdown {
+    display: none;
+}
+
+.conversions_menu:hover ul.menu_dropdown {
+    display: block
+}
+
+.conversions_menu:hover ul.menu_dropdown {
+    display: table-row-group;
+    position: absolute;
+    background: #45414a;
+    width: 100%;
+    padding: 0px;
+    margin: 16px -16px;
+    transition: all 4s cubic-bezier(0, 1.24, 0.25, 1);
+}
+
+body .ui-table .ui-table-tbody>tr>td {
+    padding: 0.571em 0.857em;
+    font-size: 11px !important;
+}
+
+h5.menu-label {
+    padding: 6px;
+    font-size: 25px !important;
+}
+
+body .ui-table .ui-table-tbody>tr>td {
+    padding: 0.571em 0.857em;
+    font-size: 14px !important;
+}
+
+.content {
+    font-size: 16px;
+}
+
+body .ui-table .ui-table-thead>tr>th {
+    padding: 0.571em 0.857em;
+    border: 1px solid #463d3d;
+    font-weight: 700;
+    color: #6f7679;
+    background-color: #f4f4f4;
+    border-top: 4px solid #60bac3;
+    font-size: 14px;
+}
+
+body {
+    overflow: hidden;
+}
