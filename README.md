@@ -1,6 +1,8 @@
-# Amazon Link creator- Newtorn internal tool
+# Amazon Link creator- Newtorn internal tool [Desktop APP]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0 & Electron.
+
+Note: Please dont use this APP in your projects. Its not allowed to be used commercially 
 
 ## Development server
 
